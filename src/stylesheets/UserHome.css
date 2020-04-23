@@ -1,0 +1,35 @@
+.UserHome{
+    padding: 1em;
+}
+.card-container{
+    display:flex;
+}
+
+.card {
+	border-radius: 0px !important;
+	border-right: 10px solid black !important;
+	border-bottom: 10px solid black !important;
+	border-top: 2px solid black !important;
+	border-left: 2px solid black !important;
+	font-family: "Open Sans Condensed";
+	text-align: justify;
+}
+
+.btn {
+	margin-left:0px !important;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #000000 !important;
+    color: white !important;
+    border-radius: 0px !important;
+    border: 0px !important;
+}
+
+.btn-primary:hover {
+	color: #1ce6d2 !important;
+}
+
+.container {
+	margin-left: 5px !important;
+}

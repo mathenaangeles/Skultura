@@ -1,0 +1,6 @@
+div.jumbotron h1::first-letter{
+    color: #1ce6d2
+}
+div.jumbotron h1{
+    font-size: 5rem;
+}

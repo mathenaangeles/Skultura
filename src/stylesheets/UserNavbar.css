@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+.custom-nav {
+	background-color: rgb(0,0,0,0.9) !important;
+	border-bottom: 3px solid #1ce6d2;
+}
+
+a.navbar-brand{
+    font-family: 'Open Sans';
+    font-size:2rem
+}
+
+a.navbar-brand::first-letter{
+    color: #1ce6d2;
+}
+
+.UserNavbar a.nav-link{
+	font-family: 'Open Sans Condensed' !important;
+	font-size: 1.3rem;
+	color: (125,125,125,0.6) !important;
+}
+
+.UserNavbar a.nav-link:hover{
+	color: white !important;
+}
+
+.navbar-form > input {
+	border: 3px solid red;
+}
+
+.ml-auto svg {
+	color: #1ce6d2 !important;
+}
