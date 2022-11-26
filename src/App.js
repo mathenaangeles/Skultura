@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-import UsernameForm from "./components/UsernameForm";
 import ChatScreen from "./ChatScreen";
 import UserHome from "./UserHome";
 import UserNavbar from "./components/UserNavbar";
 import TeacherHome from "./components/TeacherHome";
 import Search from "./components/Search";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LandingPage from "./LandingPage.js";
-import { Button, Jumbotron } from "react-bootstrap";
 import "./stylesheets/App.css";
 class App extends Component {
   constructor() {

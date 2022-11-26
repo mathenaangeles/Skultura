@@ -4,8 +4,6 @@ import MessageList from "./components/MessageList";
 import SendMessageForm from "./components/SendMessageForm";
 import TypingIndicator from "./components/TypingIndicator";
 import WhosOnlineList from "./components/WhosOnlineList";
-import UserNavbar from "./components/UserNavbar";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class ChatScreen extends Component {
   constructor(props) {

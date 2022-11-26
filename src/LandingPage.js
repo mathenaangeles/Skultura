@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button, Carousel } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 
 export default function LandingPage(){
 
@@ -12,6 +12,7 @@ export default function LandingPage(){
                   className="d-block w-100"
                   src="https://www.jacobimages.com/home/wp-content/uploads/2011/08/Isabela_1147_5981.jpg"
                   fluid
+                  alt="carousel-one"
                 />
                 <Carousel.Caption>
                   <h1>Social Network</h1>
@@ -24,6 +25,7 @@ export default function LandingPage(){
                   className="d-block w-100"
                   src="https://www.savethechildren.org.ph/__resources/userfiles/image/program-stories/watch_language_is_our_only_difference/02.jpg"
                   fluid
+                  alt="carousel-two"
                 />
 
                 <Carousel.Caption>
@@ -37,6 +39,7 @@ export default function LandingPage(){
                   className="d-block w-100"
                   src="https://www.jacobimages.com/home/wp-content/uploads/2011/08/Isabela_7695_14891.jpg"
                   fluid
+                  alt="carousel-three"
                 />
                 <Carousel.Caption>
                   <h1>Moderators</h1>

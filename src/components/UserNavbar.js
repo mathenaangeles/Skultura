@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../stylesheets/UserNavbar.css'
-import {Navbar, Nav, FormControl, Button, Form }from 'react-bootstrap';
+import {Navbar, Nav }from 'react-bootstrap';
 import {Bell} from 'react-bootstrap-icons';
 
 export default function UserNavbar(){

@@ -24,7 +24,7 @@ export default function Search(){
 
     const handleChange = event => {
         setSearchValue(event.target.value);
-        setIfEmpty(event.target.value.trim() != '' ? `Results for ${event.target.value}` : "");
+        setIfEmpty(event.target.value.trim() !== '' ? `Results for ${event.target.value}` : "");
       };
 
     let results = data.filter(x => x.schoolName.includes(searchValue) || x.section.includes(searchValue) || x.topic.includes(searchValue));
