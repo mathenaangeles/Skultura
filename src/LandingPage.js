@@ -1,6 +1,10 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
+import carousel_one from'./assets/carousel_one.jpg';
+import carousel_two from'./assets/carousel_two.jpg';
+import carousel_three from'./assets/carousel_three.jpg';
+
 export default function LandingPage(){
 
     return(
@@ -10,7 +14,7 @@ export default function LandingPage(){
                 <div class="img-overlay"></div>
                 <img
                   className="d-block w-100"
-                  src="https://www.jacobimages.com/home/wp-content/uploads/2011/08/Isabela_1147_5981.jpg"
+                  src={carousel_one}
                   fluid
                   alt="carousel-one"
                 />
@@ -23,7 +27,7 @@ export default function LandingPage(){
                 <div class="img-overlay"></div>
                 <img
                   className="d-block w-100"
-                  src="https://www.savethechildren.org.ph/__resources/userfiles/image/program-stories/watch_language_is_our_only_difference/02.jpg"
+                  src={carousel_two}
                   fluid
                   alt="carousel-two"
                 />
@@ -37,7 +41,7 @@ export default function LandingPage(){
                 <div class="img-overlay"></div>
                 <img
                   className="d-block w-100"
-                  src="https://www.jacobimages.com/home/wp-content/uploads/2011/08/Isabela_7695_14891.jpg"
+                  src={carousel_three}
                   fluid
                   alt="carousel-three"
                 />

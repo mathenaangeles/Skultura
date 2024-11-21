@@ -52,19 +52,19 @@ class App extends Component {
           <Route path="/search">
             <Search />
           </Route>
-          {/* render={routeProps => <ChatScreen {...routeProps} currentUsername={this.state.currentUsername}/>} />  */}
+          {/* render={routeProps => <ChatScreen {...routeProps} currentUsername={this.state.currentUsername}/>}   */}
         </Switch>
       </Router>
     );
 
-    /*     if (this.state.currentScreen === 'WhatIsYourUsernameScreen') {
-        return <UsernameForm onSubmit={this.onUsernameSubmitted} />
-      //return 
-     }
-     if (this.state.currentScreen === 'ChatScreen') {
-          return <ChatScreen currentUsername={this.state.currentUsername} />  
-     }*/
-    //return
+    // if (this.state.currentScreen === 'WhatIsYourUsernameScreen') {
+    //     return <UsernameForm onSubmit={this.onUsernameSubmitted} />
+
+    //  }
+    //  if (this.state.currentScreen === 'ChatScreen') {
+    //       return <ChatScreen currentUsername={this.state.currentUsername} />  
+    //  }
+
   }
 }
 
