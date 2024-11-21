@@ -5,7 +5,7 @@ Skultura cloud-based instant messaging and digital distribution platform designe
 
 ![Skultura](https://github.com/mathenaangeles/Skultura/blob/master/skultura.png)
 
-__This project uses **Chatkit**, which was discontinued by Pusher in 2020.__
+_This project uses **Chatkit**, which was discontinued by Pusher in 2020._
 
 ## Getting Started
 1. Create a `.env` file with the following contents:
