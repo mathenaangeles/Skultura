@@ -1,7 +1,7 @@
 
 # Skultura
 
-Skultura cloud-based instant messaging and digital distribution platform designed for educational institutions. This project won **Champion** and **Best in Tech** in the **2020 Blue Hacks** competition. The name Skultura is derived from the words *school* and *kultura*, the Filipino word for culture.
+Skultura cloud-based instant messaging and digital distribution platform designed for schools. This project won **Champion** and **Best in Tech** in the **2020 Blue Hacks** competition. The name Skultura is derived from the words *school* and *kultura*, the Filipino word for culture.
 
 ![Skultura](https://github.com/mathenaangeles/Skultura/blob/master/skultura.png)
 
